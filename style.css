@@ -722,7 +722,7 @@ footer .text span a:hover {
         right: 0;
     }
     .home {
-        background-size: 250px;
+        background-size: 350px;
         background-position: bottom right;
     }
     .home .home-content .text {
@@ -743,7 +743,12 @@ footer .text span a:hover {
     }
 }
 
-@media (max-width: 500px) {}
+@media (max-width: 500px) {
+    .home {
+        background-size: 200px;
+        background-position: bottom right;
+    }
+}
 
 
 /* hotfix */
